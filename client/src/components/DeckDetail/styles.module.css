@@ -1,0 +1,212 @@
+.deck_detail_container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #FFDAB9 0%, #FF8C69 100%);
+}
+
+.navbar {
+  padding: 1.5rem 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.back_link {  
+  color: black;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.back_link:hover {
+  opacity: 0.8;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.deck_header {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.deck_info h1 {
+  color: black;
+  margin: 0.5rem 0 0.5rem 0;
+  font-size: 2rem;
+}
+
+.category_badge {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+
+.description {
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0.5rem 0 0 0;
+  font-size: 1.1rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.study_btn,
+.edit_btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s;
+  white-space: nowrap;
+}
+
+.study_btn {
+  background: #FF8C69;
+  color: black;
+}
+
+.study_btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.edit_btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.edit_btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.stats_section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat_card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.stat_value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.stat_label {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.flashcards_section {
+  background: #FFDAB9;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 30px rgba(231, 185, 185, 0.1);
+}
+
+.section_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.section_header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.add_card_btn {
+  padding: 0.7rem 1.3rem;
+  background: #FF8C69;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.add_card_btn:hover {
+  background: #FF6347;
+  transform: translateY(-2px);
+}
+
+.flashcards_list {
+  display: grid;
+  gap: 1rem;
+}
+
+.empty_state {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 2px dashed #d1d5db;
+}
+
+.empty_state h3 {
+  color: #333;
+  margin: 0 0 0.5rem 0;
+}
+
+.empty_state p {
+  color: #666;
+  margin: 0 0 1.5rem 0;
+}
+
+.create_first_btn {
+  padding: 0.7rem 1.5rem;
+  background: #FF8C69;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.create_first_btn:hover {
+  background: #FF6347;
+  transform: translateY(-2px);
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 4rem;
+  color: white;
+  font-size: 1.2rem;
+}
