@@ -1,7 +1,7 @@
 # 📚 Flashcard Learning App 
 
 Flashcard Learning App to aplikacja webowa do nauki poprzez fiszki, stworzona jako projekt zaliczeniowy z przedmiotu  
-**„Szkielety programistyczne w aplikacjach internetowych”** . Umożliwia efektywną naukę dzięki metodzie aktywnego przypominania.  
+**„Aplikacje internetowe"** . Umożliwia efektywną naukę dzięki metodzie aktywnego przypominania.  
 Użytkownik może tworzyć własne talie fiszek, zarządzać nimi oraz monitorować postępy nauki poprzez interaktywny tryb nauki.
 
 **Autor:** Kinga Kowalska  
